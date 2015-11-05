@@ -1,2 +1,2 @@
 # vim
-my vim configuration
+this repo is used to backup my vim configuration
