@@ -65,7 +65,7 @@ set number
 set background=dark
 "colorscheme solarized
 "colorscheme molokai
-colorscheme gruvbox
+colorscheme molokai
 
 " 自适应不同语言的智能缩进
 filetype indent on
@@ -190,7 +190,7 @@ func SetTitle()
 	else 
 		call setline(1, "/*************************************************************************") 
 		call append(line("."), "	> File Name: ".expand("%")) 
-		call append(line(".")+1, "	> Author:Maoting Ren ") 
+		call append(line(".")+1, "	> Author: Maoting Ren") 
 		call append(line(".")+2, "	> Mail: mren@g.clemson.edu") 
 		call append(line(".")+3, "	> Created Time: ".strftime("%c")) 
 		call append(line(".")+4, " ************************************************************************/") 
